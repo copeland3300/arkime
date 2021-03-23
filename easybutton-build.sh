@@ -10,7 +10,7 @@
 # * install node unless --nonode
 # * install arkime if --install
 
-trap "set +x; sleep 5; set -x" DEBUG
+set -x
 
 GLIB=2.66.4
 YARA=4.0.2
